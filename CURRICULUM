@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .title {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Tu Nombre</h1>
+    <p><strong>Email:</strong> tuemail@gmail.com</p>
+    <p><strong>Teléfono:</strong> 123456789</p>
+    <p><strong>Dirección:</strong> Tu ciudad</p>
+
+    <div class="section">
+        <h2 class="title">Perfil</h2>
+        <p>Soy una persona responsable, con ganas de aprender y trabajar en equipo.</p>
+    </div>
+
+    <div class="section">
+        <h2 class="title">Educación</h2>
+        <p><strong>Escuela:</strong> Nombre de tu escuela</p>
+        <p><strong>Año:</strong> 2020 - Actualidad</p>
+    </div>
+
+    <div class="section">
+        <h2 class="title">Experiencia</h2>
+        <p><strong>Puesto:</strong> (si no tenés podés poner “Sin experiencia laboral”)</p>
+        <p><strong>Lugar:</strong> Nombre del lugar</p>
+        <p><strong>Descripción:</strong> Tareas realizadas</p>
+    </div>
+
+    <div class="section">
+        <h2 class="title">Habilidades</h2>
+        <p>✔ Trabajo en equipo</p>
+        <p>✔ Responsabilidad</p>
+        <p>✔ Manejo básico de computadora</p>
+    </div>
+
+</div>
+
+</body>
+</html>
